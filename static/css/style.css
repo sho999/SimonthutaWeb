@@ -80,11 +80,12 @@ h6 {
 }
 
 #topbar.topbar-transparent {
-  background: transparent;
+  /* background: transparent; */
+  background: rgba(26, 24, 22, 0.8);
 }
 
 #topbar.topbar-scrolled {
-  top: -50px;
+  /* top: -50px; */
 }
 
 #topbar i {
@@ -111,7 +112,8 @@ h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  /* background: transparent; */
+  background: rgba(26, 24, 22, 0.85);
 }
 
 #header.header-scrolled {
@@ -727,8 +729,10 @@ section {
   transform: translateX(-40%) translateY(-50%);
   width: 0;
   height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  /* border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; */
+  border-top: 10px solid;
+  border-bottom: 10px solid;
   border-left: 15px solid #fff;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -766,8 +770,8 @@ section {
   width: 0;
   height: 0;
   border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border-top: 10px solid;
+  border-bottom: 10px solid;
   border-left: 15px solid #fff;
   z-index: 200;
   animation: none;
